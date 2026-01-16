@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DacOrigin xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <PackageProperties>
+    <Version>3.1.0.0</Version>
+    <ContainsExportedData>true</ContainsExportedData>
+    <StreamVersions>
+      <Version StreamName="Data">2.0.0.0</Version>
+      <Version StreamName="DeploymentContributors">1.0.0.0</Version>
+    </StreamVersions>
+  </PackageProperties>
+  <Operation>
+    <Identity>e814a3ae-6470-42cc-8693-e7ebb1270414</Identity>
+    <Start>2026-01-16T21:58:54.4874820+05:00</Start>
+    <End>0001-01-01T00:00:00.0000000</End>
+    <ProductName>Microsoft.SqlServer.Dac, Version=170.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91</ProductName>
+    <ProductVersion>170.2.70.1</ProductVersion>
+    <ProductSchema>http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02</ProductSchema>
+  </Operation>
+  <Server>
+    <ServerVersion>Microsoft SQL Server 2025 (RTM) - 17.0.1000.7 (X64) 
+	Oct 21 2025 12:05:57 
+	Copyright (C) 2025 Microsoft Corporation
+	Express Edition (64-bit) on Windows 10 Pro 10.0 &lt;X64&gt; (Build 22631: )
+</ServerVersion>
+    <ObjectCounts>
+      <CheckConstraint>4</CheckConstraint>
+      <DatabaseOptions>1</DatabaseOptions>
+      <DefaultConstraint>2</DefaultConstraint>
+      <ForeignKeyConstraint>4</ForeignKeyConstraint>
+      <Login>2</Login>
+      <PermissionStatement>4</PermissionStatement>
+      <PrimaryKeyConstraint>3</PrimaryKeyConstraint>
+      <RoleMembership>1</RoleMembership>
+      <SimpleColumn>19</SimpleColumn>
+      <Table>3</Table>
+      <UniqueConstraint>1</UniqueConstraint>
+      <User>2</User>
+    </ObjectCounts>
+  </Server>
+  <ExportStatistics>
+    <SourceDatabaseSize>14336</SourceDatabaseSize>
+    <TableRowCountTotalTag>56</TableRowCountTotalTag>
+  </ExportStatistics>
+  <Checksums>
+    <Checksum Uri="/model.xml">112E4C8EF46E6B3775E2C0326E32F79A4E1EAC2504462EEDD612A0CE20B0BB4B</Checksum>
+  </Checksums>
+  <ModelSchemaVersion>2.9</ModelSchemaVersion>
+  <DataPhaseTables>dbo.rides,dbo.drivers,dbo.users</DataPhaseTables>
+</DacOrigin>
